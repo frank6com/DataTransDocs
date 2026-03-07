@@ -5,7 +5,7 @@ export default defineConfig({
   title: "DataTrans",
   description:
     "DataTrans 数据导入工具是基于 FastAdmin 开发的数据批量处理异步导入插件。",
-  base: "/",
+  base: "/DataTransDocs/",
   srcDir: "./src",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
