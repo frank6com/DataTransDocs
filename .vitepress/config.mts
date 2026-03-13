@@ -44,6 +44,14 @@ export default defineConfig({
             { text: "导入按钮引用", link: "/usage/button-reference" },
           ],
         },
+        {
+          text: '其他',
+          collapsed: false,
+          items: [
+            { text: "常见问题", link: "/usage/faq" },
+            { text: "未来计划", link: "/usage/future-plans" },
+          ]
+        }
       ],
       "/dev/": [
         {
@@ -72,6 +80,7 @@ export default defineConfig({
                 { text: "任务管理类", link: "/dev/library/task-manager" },
                 { text: "工具类", link: "/dev/library/utility" },
                 { text: "环境检查类", link: "/dev/library/env-checker" },
+                { text: "导入器", link: "/dev/library/importer" },
               ]
             },
             {
@@ -133,7 +142,7 @@ export default defineConfig({
         },
       ],
     },
-
+    outline: 'deep',
     socialLinks: [{ icon: "github", link: "https://github.com/frank6com" }],
   },
 });
