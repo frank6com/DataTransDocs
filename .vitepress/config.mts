@@ -38,10 +38,16 @@ export default defineConfig({
           text: "使用指南",
           collapsed: false,
           items: [
-            { text: "预设配置管理", link: "/usage/configuration" },
+            { 
+                text: "预设配置管理", 
+                link: "/usage/configuration",
+                collapsed: false,
+                items: [
+                  { text: "导入按钮引用", link: "/usage/button-reference" },
+                ]
+            },
             { text: "导入任务管理", link: "/usage/task" },
             { text: "任务日志管理", link: "/usage/log" },
-            { text: "导入按钮引用", link: "/usage/button-reference" },
           ],
         },
         {
