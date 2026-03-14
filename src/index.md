@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: "使用文档"
-      link: "/guides/overview"
+      link: "/usage/overview"
     - theme: alt
       text: "获取插件"
       link: "https://www.fastadmin.net/store/datatrans.html"
