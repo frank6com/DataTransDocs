@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 import { useData, useRoute } from 'vitepress'
+import strict from 'node:assert/strict'
 
 export default {
   ...DefaultTheme,
@@ -9,12 +10,20 @@ export default {
     const route = useRoute()
 
     giscusTalk({
-      repo: 'Frank6com',
+      repo: 'frank6com/DataTransDocs',
       repoId: 'R_kgDORdSF5g',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDORdSF5s4C36lq',
+      category: 'General',
+      categoryId: 'DIC_kwDORdSF5s4C36lr',
       mapping: 'pathname',
-      theme: 'preferred_color_scheme'
+      strict: '0',
+      reactionsEnabled: '1',
+      emitMetadata: '0',
+      inputPosition: 'bottom',
+      theme: 'preferred_color_scheme',
+      lang: 'zh-CN',
+      loading: 'lazy',
+      crossorigin: 'anonymous',
+      async: true,
     }, {
       frontmatter,
       route
