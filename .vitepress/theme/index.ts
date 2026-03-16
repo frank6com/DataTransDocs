@@ -20,7 +20,7 @@ export default {
       reactionsEnabled: '1',
       emitMetadata: '0',
       inputPosition: 'bottom',
-      theme: 'preferred_color_scheme',
+      theme: 'dark_tritanopia',
       lang: 'zh-CN',
       loading: 'lazy',
       crossorigin: 'anonymous',
