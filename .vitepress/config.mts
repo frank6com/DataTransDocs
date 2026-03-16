@@ -38,16 +38,18 @@ export default defineConfig({
           text: "使用指南",
           collapsed: false,
           items: [
-            { 
-                text: "预设配置管理", 
-                link: "/usage/configuration",
-                collapsed: false,
-                items: [
-                  { text: "导入按钮引用", link: "/usage/button-reference" },
-                ]
-            },
+            { text: "预设配置管理", link: "/usage/configuration" },
             { text: "导入任务管理", link: "/usage/task" },
             { text: "任务日志管理", link: "/usage/log" },
+            { 
+              text: "高级功能 <span style='display: inline-block;margin-left: 2px;border: 1px solid transparent;border-radius: 12px;padding: 0 10px;line-height: 22px;font-size: 12px;font-weight: 500;transform: translateY(-2px);border-color: var(--vp-badge-danger-border);color: var(--vp-badge-danger-text);background-color: var(--vp-badge-danger-bg);'> HOT </span>", 
+              collapsed: false,
+              items: [
+                { text: "导入按钮引用", link: "/usage/button-reference" },
+                { text: "字段处理表达式", link: "/usage/field-expression" },
+                { text: "导入预览", link: "/usage/import-preview" },
+              ]
+            },
           ],
         },
         {
