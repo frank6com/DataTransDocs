@@ -1,4 +1,4 @@
-# 导入按钮引用
+# 导入按钮引用 <Badge type="warning" text="高级功能" />
 
 ## 介绍
 
