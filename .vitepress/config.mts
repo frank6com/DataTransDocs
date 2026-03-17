@@ -7,6 +7,9 @@ export default defineConfig({
     "DataTrans 数据导入工具是基于 FastAdmin 开发的数据批量处理异步导入插件。",
   base: "/DataTransDocs/",
   srcDir: "./src",
+  head: [
+    ['link', { rel: 'icon', href: '/DataTransDocs/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
